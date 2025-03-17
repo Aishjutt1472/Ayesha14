@@ -1,0 +1,9 @@
+div{
+
+    height: 250px;
+    width: 250px;
+    border: 20px solid;
+    margin: 30px;
+    color: rgb(21, 85, 85);
+    float: right;
+}
