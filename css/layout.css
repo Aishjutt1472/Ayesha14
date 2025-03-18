@@ -1,0 +1,139 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+ }
+ .container {
+
+width: 70% ;
+background-color: rgb(16, 33, 51);
+margin: auto;
+
+ }
+
+ header {
+    background-color: rgb(112, 96, 71);
+    height: 100px;
+ }
+ .header {
+    background-color: rgb(103, 180, 180);
+    padding: 30px;
+ }
+
+ #box1 {
+    float: left;
+    width: 25%;
+    margin: 10px 0 0 10px;
+}
+
+#box2 {
+    float: right;
+    width: 65%;
+    margin: 10px 10px 0 0;
+}
+
+
+
+.main {
+    height: 400px;
+    margin: auto;
+}
+
+#sec-1 {
+    background-color: rgb(5, 163, 108);
+    margin: 20px;
+    width: 45%;
+    height: 90%;
+    float: left;
+    padding-top: 10px;
+
+}
+#sec2{
+    background-color: rgb(27, 88, 68);
+    margin: 20px;
+    width: 45%;
+    height: 90%;
+    float: right;
+    padding-top: 10px;
+   
+    
+
+}
+#sec-top{
+    background-color: rgb(92, 5, 34);
+    margin: 10px;
+    height: 70px;
+    padding-top: 25px; 
+    width: 95%;
+
+}
+#sec-Bottom {
+    margin: 10px;
+    height: 250px;
+    width: 95%;
+    background-color: rgb(108, 153, 4);
+}
+
+ 
+#text-img{
+    height: 350px;
+    background-color: rgb(73, 33, 33);
+    padding: auto;
+}
+
+img{
+    height:250px;
+    width: 250px;
+    margin: 20px;
+    
+}
+
+#img img{
+     height: 250px;
+     width: 250px;
+     float: left;
+     margin: 70px;
+
+}
+
+#text{
+    height: 250px ;
+     width: 350px;
+    padding:20px 30px ;
+    background-color:rgb(40, 40, 90) ;
+    float:right;
+    margin: 60px;
+}
+.footer{
+    background-color:rgb(163, 120, 11) ;
+    height: 250px;
+    padding:0 20px ;
+
+}
+.footer div{
+    background-color: grey;
+    float: left;
+    height:200px ;
+    width:250px ;
+    margin: 20px;
+    /* padding-top: 90px; */
+}
+/* 
+.footer div2{
+    background-color: grey;
+    float: left;
+    height:200px ;
+    width:250px ;
+    margin: 20px;
+    padding-top: 90px;
+}
+
+.footer div3{
+    background-color: grey;
+    float: left;
+    height:200px ;
+    width:250px ;
+    margin: 20px;
+    padding-top: 90px;
+} */

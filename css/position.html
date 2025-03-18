@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+
+    <style>
+        .main{
+            width: 80%;
+            height: 900px;
+            background-color: blue;
+            padding: 20px;
+            position: relative;
+            margin: auto;
+        }
+        .box{
+            width: 100%;
+            height: 100px;
+            margin-top: 10px;
+            border: 2px solid black;
+        }
+        #item1{
+            background-color: aqua;
+            position: sticky;
+            top: 20px;
+        }
+        #item2{
+            background-color: brown;
+        }
+        #item3{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="box" id="item1"></div>
+        <div class="box" id="item2"></div>
+        <div class="box" id="item3"></div>
+    </div>
+</body>
+</html>
